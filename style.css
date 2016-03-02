@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cover {
+    background: #222 url("img/stars.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#cover-caption {
+    width:100%;
+}
+#carousel {
+    margin-top: 0px;
+}
+#carousel img {
+    width: 100%;
+    min-height: 300px;
+    max-height:600px;
+}
+
+.section-content {
+
+    padding: 5rem 0;
+
+}
+
+#about {
+    background: url('img/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, .5);
+    color:white;
+    padding:1.875rem;
+}
+
+#footer-main {
+    background: #222222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+a {
+
+    transition: background 0.15s linear 0s;
+
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    transition: background 0.15s linear 0s;
+}
+
+#arrow {
+    transition: border .5s ease 0s;
+}
+
+#arrow:hover{
+    border-color: #59ddff;
+    background-color: transparent;
+    border-width: 1px;
+
+}
+
+ #twitter:hover {
+    background-color: #63b2ea;
+}
+
+#facebook:hover {
+    background-color: #354a87;
+}
+
+ #youtube:hover {
+    background-color: #d50915;
+}
+
+ #news img {
+     max-height:750px;
+     min-width:100%;
+ }
